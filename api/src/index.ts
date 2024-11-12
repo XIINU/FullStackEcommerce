@@ -8,7 +8,7 @@ const port = 3000;
 app.use("/products", productRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Hello worlllllllllld");
+  res.send("Welcome to Ecommerce App");
 });
 
 app.listen(port, () => {
